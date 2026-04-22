@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Base styles for all boxes */
+.gradient-box,
+.filter-box,
+.transform-box,
+.transition-box,
+.animation-box {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.gradient-box
+{
+    background: linear-gradient(to right, red, blue, yellow);
+}
