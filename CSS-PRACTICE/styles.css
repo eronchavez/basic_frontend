@@ -1,0 +1,223 @@
+/* p {
+    color: red;
+}
+
+.highlight {
+    background-color: blue;
+ 
+}
+
+.highlight>p {
+    color: white;
+}
+
+#name {
+    text-align: center;
+} */
+
+/* 
+1. Element Selector: Just call the semantic.
+2. ID Selector: use "#" to call an ID.
+3. Class Selector: use "." to select the class.
+*/
+
+
+/* .card>p {
+    color: blue;
+}
+
+.highlight ~ p{
+    color: green;
+} */
+
+ 
+
+/* 
+ Combinator Selectors
+ 1. Use space to select whats inside.
+ 2. Use > to target whats inside only.
+ 3. Use + to target whats next.
+ 4. Use ~ to target whats next ( all ) .
+*/
+
+
+/* 
+p:nth-child(2)
+{
+    color: red;
+}
+h2:nth-child(1)
+{
+    color: green;
+}
+
+p:nth-of-type(2)
+{
+    color: beige;
+}
+
+button:hover{
+    background: blue;
+    color: white;
+}
+
+
+
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+input:checked{
+    accent-color: red;
+}
+
+
+#active:active{
+    background-color: red;
+    color: white;
+}
+
+#focus:focus{
+    background-color: green;
+    color: WHITE;
+}
+
+
+h2::before{
+    content: "★";
+    color: red;
+}
+
+h2::after{
+    content: " HAHAHA";
+    
+} */
+
+
+
+/* Basic Selectors */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#main-header{
+    background-color: black;
+    color: white
+}
+
+.card{
+    border: 1px solid black;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 5%;
+}
+
+
+/* Combinator Selectors */
+.about  p{
+    color: pink;
+}
+
+.card  h3{
+    color: blue;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Pseudo-class Selectors */
+.skills li:first-child{
+    color: red;
+}
+
+.skills li:last-child{
+    color: blue;
+}
+
+.skills li:nth-child(3){
+    color: green;
+}
+
+.skills li:nth-child(even)
+{
+    background-color: lightgray;
+}
+
+a:hover{
+    color: yellow;
+}
+
+
+input:focus{
+    border: 2px solid orange;
+    outline: none;
+    background-color: lightblue;
+}
+
+input:disabled{
+    opacity: 50%;
+}
+
+button:active{
+    background-color: black;
+}
+
+li::before{
+    content:"→" ;
+}
+
+.about h2::after{
+    content: "✓ ";
+}
+
+
+.about p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input::placeholder{
+    font-style: italic;
+    color: lightgray;
+
+}
+
+::selection{
+    background-color: yellow;
+    color: black;
+}
+
+.card:hover{
+    box-shadow:10px 10px 10px 10px ;
+}
+
+header{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.card {
+    position: relative; /* reference point */
+    width: 200px;
+    height: 200px;
+}
+
+.badge {
+    position: absolute; /* locks to .card */
+    top: 0;
+    right: 0;
+}
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="https://google.com">Google</a></li>
+                <li><a href="document.pdf">Download PDF</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="posts">
+            <h2>Latest Posts</h2>
+
+            <div class="card">
+                <h3>Post One</h3>
+                <p>First paragraph of post one.</p>
+                <p>Second paragraph of post one.</p>
+                <div class="meta">
+                    <p>Written by Juan</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Post Two</h3>
+                <p>First paragraph of post two.</p>
+                <p>Second paragraph of post two.</p>
+                <div class="meta">
+                    <p>Written by Maria</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Post Three</h3>
+                <p>First paragraph of post three.</p>
+                <p>Second paragraph of post three.</p>
+                <div class="meta">
+                    <p>Written by Pedro</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Laravel</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="text" placeholder="Subject" disabled>
+                <input type="url" placeholder="Website">
+                <textarea placeholder="Message"></textarea>
+                <button class="primary" type="submit">Send</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Blog@2026</p>
+        <p>All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

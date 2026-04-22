@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML MASTERY</title>
+</head>
+<body>
+
+    <header>
+        <h1>HTML MASTERY</h1>
+        <nav>
+            <ul>
+                <li>PRODUCTS</li>
+                <li>COMPANIES</li>
+                <li>CATEGORIES</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <h2>Juan Dela Cruz</h2>
+            
+        <section>
+            <p>This section is for Form</p>
+              <article>
+                <p>This is for article</p>
+                <p>I started web programming</p>
+            </article>
+        </section>
+
+        <section>
+            <section>
+                <h2>About Me</h2>
+                <p>I am not good in programming</p>
+                <img src="https://i.pinimg.com/474x/8f/21/b5/8f21b5400eaeb334000c5acc364a4503.jpg" alt="flower">
+            </section>
+
+            <section>
+                <h2>My projects</h2>
+                <video controls muted autoplay loop
+                    poster="https://i.pinimg.com/474x/8f/21/b5/8f21b5400eaeb334000c5acc364a4503.jpg">
+                    <source src="../lyon.mp4" type="video/mp4">
+                </video>
+
+                <audio controls loop>
+                    <source src="audio.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+
+            <form action="/test">
+                <h2>User information: </h2>
+
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+                <br>   <br>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <br>   <br>
+
+                <label for="phone">Phone: </label>
+                <input type="tel" name="phone" id="phone">
+                <br>   <br>
+
+                <label for="subject">Subject: </label>
+                <select name="subject" id="subject">
+                    <option value="programming" selected>Programming</option>
+                    <option value="calculus">Calculus</option>
+                    <option value="arts">Reading Visual Arts</option>
+                </select>
+                <br>  <br>
+
+                <label for="inquiry">Inquiry</label>
+                <input type="radio" name="type" id="inquiry" value="inquiry">
+                <label for="feedback">Feedback</label>
+                <input type="radio" name="type" id="feedback" value="feedback" checked>
+                <label for="other">Other</label>
+                <input type="radio" name="type" id="other" value="other">
+
+                <input type="checkbox" name="interest" value="webdesign"> Web Design
+                <input type="checkbox" name="interest" value="development"> Development
+                <input type="checkbox" name="interest" value="photography"> Photography
+                <textarea name="message" id=""></textarea>
+
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </form>
+        </section>
+        
+        <aside>
+            <p>Fun fact: Tae </p>
+        </aside>
+    </main>
+    
+    <footer>
+        <p>contact</p>
+        <p>Practice@2026</p>
+    </footer>
+</body>
+</html>

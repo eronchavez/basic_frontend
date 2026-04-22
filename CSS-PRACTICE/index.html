@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I am a web developer learning CSS.</p>
+            <p>I am training for WorldSkills 2026.</p>
+            <p>I love solving problems with code.</p>
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
+            <div class="card">
+                <h3>Project One</h3>
+                <span class="badge"></span>
+                <p>This is my first project.</p>
+            </div>
+            <div class="card">
+                <h3>Project Two</h3>
+                <span class="badge"></span>
+                <p>This is my second project.</p>
+            </div>
+            <div class="card">
+                <h3>Project Three</h3>
+                <span class="badge"></span>
+                <p>This is my third project.</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Laravel</li>
+                <li>PHP</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your email">
+                <input type="text" placeholder="Subject" disabled>
+                <textarea placeholder="Your message"></textarea>
+                <button type="submit">Send</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+
+        <div class="container">   <!-- parent -->
+            <div>Item 1</div>     <!-- child -->
+            <div>Item 2</div>     <!-- child -->
+            <div>Item 3</div>     <!-- child -->
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Practice@2026</p>
+        <p>All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
